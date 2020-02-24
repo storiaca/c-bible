@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-/* copy input to output; 2nd version */
+/* Ex: 1-6; Verify that the expression 
+   getcaher() != EOF is 0 or 1 
+ */
 
 int main()
 {
     int c;
-    c = getchar();
-    while ((c = getchar()) != EOF)
-    {
-        putchar(c);
-    }
+    while (c = getchar() != EOF)
+        printf("%d\n", c);
+    printf("%d - at EOF\n", c);
 }
