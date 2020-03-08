@@ -1,6 +1,6 @@
 /* bitcount: count 1 bits in x - faster version */
 
-int bitcount(usigned x)
+int bitcount(unsigned x)
 {
   int b;
 
